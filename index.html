@@ -75,7 +75,7 @@
 					<!-- OVERVIEW -->
 					<div class="panel panel-headline">
 						<div class="panel-heading">
-							<h1 class="panel-title">어떻게 보이니</h1>
+							<h1 class="panel-title">현재 스마트팜 가동 상태</h1>
 							<p class="panel-subtitle"><div id="current_date"></p>
 <script>
 document.getElementById("current_date").innerHTML = Date();
@@ -104,12 +104,13 @@ document.getElementById("current_date").innerHTML = Date();
 										</p>
 									</div>
 								</div>
-								<div class="col-md-3">
+								 <div class="col-md-3">
 									<div class="metric">
 										<span class="icon"><i class="fa fa-eye"></i></span>
 										<p>
-											<span class="number">나중에 ph농도 넣을곳 </span>
-											<span class="title">ph</span>
+											<span class="number">ph농도 </span>
+												<iframe id="window_iframe_9896965" class="window-iframe"
+											src="https://thingspeak.com/channels/1875018/widgets/539006"></iframe>
 										</p>
 									</div>
 								</div>
@@ -153,7 +154,7 @@ document.getElementById("current_date").innerHTML = Date();
 											<div class="row">
 													<div style="margin-left: 30px; margin-right: 30px; width: 90%; background-color: rgb(245, 245, 245);" class="ui card">
 															<div class="content">
-																	<h3>LED(여기에 데이터 넣을것)</h3>
+																	<h3>LED</h3>
 															</div>
 															<iframe id="window_iframe_9896965" class="window-iframe"
 																	src="https://thingspeak.com/channels/1875018/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
@@ -165,7 +166,7 @@ document.getElementById("current_date").innerHTML = Date();
 											<div class="row">
 													<div style="margin-left: 30px; margin-right: 30px; width: 90%; background-color: rgb(245, 245, 245);" class="ui card">
 															<div class="content">
-																	<h3>수위 (여기에 데이터 넣을것)</h3>
+																	<h3>수위 </h3>
 															</div>
 															<iframe id="window_iframe_9896965" class="window-iframe"
 																	src="https://thingspeak.com/channels/1875018/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
@@ -177,7 +178,7 @@ document.getElementById("current_date").innerHTML = Date();
 											<div class="row">
 													<div style="margin-left: 30px; margin-right: 30px; width: 90%; background-color: rgb(245, 245, 245);" class="ui card">
 															<div class="content">
-																	<h3>온도 (여기에 데이터 넣을것)</h3>
+																	<h3>온도 </h3>
 															</div>
 															<iframe id="window_iframe_9896965" class="window-iframe"
 																	src="https://thingspeak.com/channels/1875018/charts/5?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
@@ -189,7 +190,7 @@ document.getElementById("current_date").innerHTML = Date();
 											<div class="row">
 													<div style="margin-left: 30px; margin-right: 30px; width: 90%; background-color: rgb(245, 245, 245);" class="ui card">
 															<div class="content">
-																	<h3>습도 (여기에 데이터 넣을것)</h3>
+																	<h3>습도 </h3>
 															</div>
 															<iframe id="window_iframe_9896965" class="window-iframe"
 																	src="https://thingspeak.com/channels/1875018/charts/4?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
